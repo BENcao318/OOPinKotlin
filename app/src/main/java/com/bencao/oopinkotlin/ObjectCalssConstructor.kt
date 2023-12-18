@@ -1,7 +1,7 @@
 package com.bencao.oopinkotlin
 
 fun main(args: Array<String>) {
-    var myCar = Cars()
+/*    var myCar = Cars()
     myCar.name = "Ferrari"
     myCar.model = 2021
 
@@ -10,5 +10,13 @@ fun main(args: Array<String>) {
     myCar2.model = 2010
 
     println("My cars's name is ${myCar.name} and its model is ${myCar.model}")
-    println("My cars's name is ${myCar2.name} and its model is ${myCar2.model}")
+    println("My cars's name is ${myCar2.name} and its model is ${myCar2.model}") */
+
+//    var myNewCar = MyCars("Ferrari", 2021)
+//    println("My cars's name is ${myNewCar.name} and its model is ${myNewCar.model}")
+    var mySecondCar = MySecondCars("Mercedes", 2000)
+
+    mySecondCar.name = "Opel"
+
+    println("My second cars's name is ${mySecondCar.name} and its model is ${mySecondCar.model}")
 }
