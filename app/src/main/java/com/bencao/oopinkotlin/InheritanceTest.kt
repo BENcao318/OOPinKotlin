@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     car.maxSpeed = 320
 
     car.show()
-    println("")
+    println(" ")
     var motorcycle = Motorcycle()
     motorcycle.type = "Motorcycle"
     motorcycle.model = "Yamaha"
