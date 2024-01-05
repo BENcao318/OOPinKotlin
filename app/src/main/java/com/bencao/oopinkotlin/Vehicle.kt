@@ -7,7 +7,7 @@ open class Vehicle {
 
     fun show()
     {
-        println("Type: $type")
+        println("Show Type: $type")
         println("Model: $model")
         println("Max Speed: $maxSpeed")
     }
